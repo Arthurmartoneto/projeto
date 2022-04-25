@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: rgb(31, 11, 102);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+b {
+    color: rgb(31, 11, 102);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.cabe {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #ffffff;
+    height: 10vh;
+}
+
+main {
+    background: url("imagens/projetinhooo.png") no-repeat center center;
+    background-size: cover;
+    height: 260vh;
+    background-position: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: rgb(118, 108, 207);
+    margin: 8px;
+    transition: 0.3s;
+}
+
+
+.art {
+    background-position: left;
+    padding: 0px;
+    height: auto;
+    background-color: #9723AC;
+}
+
+.art p {
+
+    text-align: center;
+    color: azure;
+}
+
+.balence {
+    background-position: center;
+    padding: 120px;
+    height: 10%;
+    background-color: rgb(217, 215, 250);
+}
+
+.balence p {
+    text-align: center;
+}
+
+.historia {
+    height: 45vh;
+    background-color: rgb(217, 215, 250);
+}
+
+.historia h2 {
+    color: rgb(78, 78, 232);
+    text-align: center;
+    text-decoration: none;
+}
+
+.historia p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    height: 32%;
+
+}
+
+.video {
+    background-position: left;
+    padding: 0px;
+    height: 10%;
+    background-image: url("imagens/v23232323.png");
+}
+
+.video p {
+    text-align: center;
+}
+
+.lojinha {
+    margin: 0;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.grupo:before,
+.grupo:after {
+    display: table;
+}
+
+
+.grupo:after {
+    clear: both;
+}
+
+
+.campo {
+    margin-bottom: 1em;
+}
+
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #59429d;
+    display: block;
+
+}
+
+
+fieldset.grupo .campo {
+    float: left;
+    margin-right: 1em;
+}
+
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo select,
+.campo textarea {
+    padding: 0.2em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+
+.campo select option {
+    padding-right: 1em;
+
+}
+
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+    background: #E0E0F8;
+}
+
+/* catalogo */
+
+.card-item button {
+    width: 90%;
+    padding: 15px 0px;
+    border: none;
+    background: var(--blue);
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.card-item button:hover {
+    background: #dedede;
+    color: var(--blue);
+}
